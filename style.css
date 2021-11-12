@@ -1,0 +1,63 @@
+body {
+    background-color:lightcyan;
+    background-image: url('mountain.jpg');
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+label {
+    font-size: 17px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 10px 18px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+button {
+    background-color: rgb(185, 185, 212);
+    color: rgb(0, 0, 0);
+    padding: 9px;
+    margin: 6px;
+    border-radius: inherit;
+    cursor: pointer;
+    width: 10%;
+    font-size: 15px;
+}
+
+button:hover {
+    opacity: 1px;
+}
+
+.createnewbtn {
+    align-content: center;
+    width: 15%;
+    padding: 10px;
+    background-color: #228086;
+    color: white;
+    font-size: 15px;
+}
+
+.container {
+    padding: 14px;
+}
+
+@media screen and (max-width: 100px) {
+span.psw {
+    display: block;
+    float: none;
+}
+
+.createnewbtn {
+    width: 30%
+}
+}
